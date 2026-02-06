@@ -1,0 +1,60 @@
+/* ===============================================
+   GLOBAL STYLES & VARIABLES
+   =============================================== */
+
+:root {
+	--primary-color: #FFB800;
+	--secondary-color: #1a1a1a;
+	--text-dark: #2c3e50;
+	--text-light: #7f8c8d;
+	--white: #ffffff;
+	--light-bg: #f8f9fa;
+	--border-color: #e0e0e0;
+	--success-color: #27ae60;
+	--shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+	--shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
+	--shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.2);
+	--transition: all 0.3s ease;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: var(--text-dark);
+	line-height: 1.6;
+	overflow-x: hidden;
+	font-size: 16px;
+}
+
+/* Improve readability on mobile */
+@media (max-width: 768px) {
+	body {
+		font-size: 15px;
+	}
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* ===============================================
+   NAVIGATION
+   =============================================== */
+/* ...existing code... */
